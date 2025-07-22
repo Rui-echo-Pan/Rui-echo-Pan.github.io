@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Never stop thinking :-)
+subtitle:
 
 profile:
   align: right
