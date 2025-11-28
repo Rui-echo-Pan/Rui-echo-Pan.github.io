@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://Rui-echo-Pan.github.io/sitemap.xml
