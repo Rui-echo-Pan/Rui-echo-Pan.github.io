@@ -49,3 +49,29 @@ footer{padding:26px 0}
 .footer-grid a:not(.brand),.footer-grid .footer-meta p{font-size:15px}
 @media(min-width:1000px){.section-grid{grid-template-columns:200px minmax(0,1fr);gap:40px}}
 @media(max-width:700px){.section-grid{padding-top:32px;padding-bottom:32px;gap:20px}.paper,.paper:last-child{padding:20px}.paper h3{font-size:21px}.entry{gap:6px;padding:16px 0}.entry h3,.talk-group h3{font-size:20px}.section-heading h2{font-size:28px}}
+
+/* Statement-style introduction: identity first, research in reading text. */
+.hero{column-gap:64px;row-gap:34px;align-items:start}
+.hero h1{margin-bottom:22px;letter-spacing:-.045em}
+.hero .bio{font-size:17px;line-height:1.8;color:#dcd6e3;max-width:650px;margin-bottom:0}
+.hero .bio-intro{font-size:21px;line-height:1.65;color:#fff;margin-bottom:22px}
+.institution-link{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.2em;text-decoration-color:#b9a3d3}
+.hero .institution-link{color:#ddc7f8;text-decoration-color:#a48abb}
+.hero .institution-link:hover{color:#fff;text-decoration-color:currentColor}
+.hero a:focus-visible{outline-color:#ddc7f8}
+.portrait{margin-top:8px}
+.research .section-content>.paper:first-child,.research .section-content>.paper:last-child{grid-column:1/-1}
+.research .section-content>.paper:first-child h3{max-width:850px}
+@media(max-width:900px){.hero{column-gap:32px}.hero .bio-intro{font-size:19px}}
+@media(max-width:700px){
+  .hero{gap:26px;padding-top:30px}
+  .hero-copy{order:0;min-width:0}
+  .hero h1{margin-bottom:18px}
+  .hero .bio{font-size:17px;line-height:1.75}
+  .hero .bio-intro{font-size:19px;line-height:1.65;margin-bottom:20px}
+  .portrait{order:1;width:190px;margin:0}
+  .interests{order:2}
+  .research .section-content>.paper:first-child,.research .section-content>.paper:last-child{grid-column:auto}
+}
+
+header .brand:hover{color:#ddc7f8}
