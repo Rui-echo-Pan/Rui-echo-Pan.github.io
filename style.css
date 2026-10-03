@@ -75,3 +75,7 @@ footer{padding:26px 0}
 }
 
 header .brand:hover{color:#ddc7f8}
+
+/* Contact information directly beneath the introduction. */
+.hero .contact-links{font-size:16px;gap:12px 24px;margin-top:24px}
+.hero .contact-links a{overflow-wrap:anywhere;max-width:100%}
